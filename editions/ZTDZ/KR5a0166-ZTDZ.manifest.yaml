@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0166/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0166/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈寶自然九天生神三寶大有金書
+  date: '2015-08-28 23:39:25.906929'
+  source:
+    repository: kanripo
+    path: KR5a0166
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0166_000-ZTDZ.yaml, hash: 'sha256:485f79ede6f57502ba97303821da90ffd07872c50a6515f2af42a2d94739a29c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0166_000-ZTDZ.markers.yaml, hash: 'sha256:536f05af4fcf9a812199e5b617889f3689044d5b983854321638776d45881fdc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0166_SJB_000-030266a
+    span:
+    - body
+    - 0
+    - 455
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:eb4c605cdef80815e3f3db66667c8c4440b18cfcd4ffddf04646c045009bf76c
